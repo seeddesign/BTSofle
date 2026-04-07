@@ -96,11 +96,11 @@
 
         Fn {
             bindings = <
-&kp GRAVE     &kp F1          &kp F2          &kp F3      &kp F4           &kp F5      &bt BT_SEL 0  &trans  &trans  &trans  &kp MINUS         &kp EQUAL          &kp DELETE
-&kp CAPSLOCK  &bt BT_PRV      &kp UP_ARROW    &bt BT_NXT  &kp PAGE_UP      &kp HOME    &bt BT_CLR    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans        &kp LEFT        &kp DOWN_ARROW  &kp RIGHT   &kp PAGE_DOWN    &kp END     &bt BT_PRV    &trans  &trans  &trans  &trans            &trans             &trans
-&trans        &kp C_PREVIOUS  &kp C_PLAY      &kp C_NEXT  &rgb_ug RGB_EFR  &trans      &bt BT_NXT    &trans  &trans  &trans  &trans            &trans             &trans
-&kp C_MUTE    &trans          &trans          &trans      &trans           &tog 1      &tog 1        &trans  &trans  &trans  &trans            &trans
+&kp GRAVE     &kp F1             &kp F2          &kp F3        &kp F4           &kp F5      &bt BT_SEL 0  &trans  &trans  &trans  &kp MINUS         &kp EQUAL          &kp DELETE
+&kp CAPSLOCK  &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOL_UP  &kp PAGE_UP      &kp HOME    &bt BT_CLR    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans        &kp LEFT           &kp DOWN_ARROW  &kp RIGHT     &kp PAGE_DOWN    &kp END     &bt BT_PRV    &trans  &trans  &trans  &trans            &trans             &trans
+&trans        &kp C_PREVIOUS     &kp C_PLAY      &kp C_NEXT    &rgb_ug RGB_EFR  &trans      &bt BT_NXT    &trans  &trans  &trans  &trans            &trans             &trans
+&kp C_MUTE    &trans             &trans          &bt BT_PRV    &bt BT_NXT       &tog 1      &tog 1        &trans  &trans  &trans  &trans            &trans
             >;
 
             display-name = "Fn";
