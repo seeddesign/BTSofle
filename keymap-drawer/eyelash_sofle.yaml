@@ -145,9 +145,9 @@ layers:
   - {t: '=', s: +}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:volume-low$$
   - $$mdi:arrow-up-bold$$
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:volume-high$$
   - PgUp
   - HOME
   - $$mdi:bluetooth-off$$
@@ -186,8 +186,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: Windows, h: toggle}
   - {t: Windows, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
