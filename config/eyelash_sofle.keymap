@@ -74,7 +74,7 @@
 &kp TAB         &kp Q              &kp W             &kp E         &kp R             &kp T        &to 1       &kp Y      &kp U         &kp I        &kp O        &kp P         &kp BSLH
 &lt 2 CAPSLOCK  &kp A              &kp S             &kp D         &kp F             &kp G        &bt BT_PRV  &kp H      &kp J         &kp K        &kp L        &kp SEMI      &kp APOS
 &kp LSHFT       &kp Z              &kp X             &kp C         &kp V             &kp B        &bt BT_NXT  &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH      &kp ENTER
-&kp LG(B)       &lt 4 PRINTSCREEN  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &bt BT_CLR  &kp SPACE  &kp CAPSLOCK  &lt 3 MINUS  &lt 3 EQUAL  &lt 4 DELETE
+&kp LG(B)       &lt 5 PRINTSCREEN  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &bt BT_CLR  &kp SPACE  &kp CAPSLOCK  &lt 3 MINUS  &lt 3 EQUAL  &lt 4 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
@@ -135,11 +135,11 @@
 
         FinalCutPro {
             bindings = <
-&trans  &trans                &trans     &trans                 &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(MINUS)         &trans     &kp LC(EQUAL)          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LEFT_BRACKET)  &kp LG(B)  &kp LA(RIGHT_BRACKET)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(LEFT_ARROW)    &trans     &kp LG(RIGHT_ARROW)    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans     &trans                 &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans        &trans                 &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(MINUS)         &kp UP_ARROW  &kp LC(EQUAL)          &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LEFT_BRACKET)  &kp LG(B)     &kp LA(RIGHT_BRACKET)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(LEFT_ARROW)    &kp DOWN      &kp LG(RIGHT_ARROW)    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans        &trans                 &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
